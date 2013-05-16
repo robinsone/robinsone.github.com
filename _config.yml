@@ -14,9 +14,9 @@ tagline: Site Tagline
 author :
   name : Eric Robinson
   email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  github : Robinsone.github.com
+  # twitter : username
+  # feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
