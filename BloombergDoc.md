@@ -20,6 +20,7 @@ This class can take in 3 options. --Help --Securities --Quotes. Help displays wh
 
 # Core Logic Layer
 - Core.cs
+
 # Data Logic Layer
 
 ## Classes
