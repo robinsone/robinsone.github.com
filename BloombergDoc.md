@@ -3,6 +3,7 @@ layout: page
 title: "Bloomberg Documentation"
 description: "as known by Eric Robinson"
 ---
+{% include JB/setup %}
 
 ## SQL connections
 Use `Repository pattern` 
