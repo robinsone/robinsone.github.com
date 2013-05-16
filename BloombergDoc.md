@@ -68,7 +68,7 @@ This class is responsible for all connections and requests done to the Database.
 
 ### Bloomberg Web Password
 
-`
+
     INSERT INTO PrimacyWorkplace_Mainline.dbo.PropertyV2
             ( Property ,
               SystemPropertyCategoryCode ,
@@ -90,11 +90,11 @@ This class is responsible for all connections and requests done to the Database.
               '2013-05-16 19:50:59' , -- ModifiedOn - datetime
               NULL -- VersionNumber - timestamp
             )
-`
+
 
 ### Bloomberg Certificate X1509
 
-`
+
     INSERT INTO PrimacyWorkplace_Mainline.dbo.PropertyV2
             ( Property ,
               SystemPropertyCategoryCode ,
@@ -116,4 +116,3 @@ This class is responsible for all connections and requests done to the Database.
               '2013-05-16 19:50:59' , -- ModifiedOn - datetime
               NULL -- VersionNumber - timestamp
             )
-`
