@@ -82,7 +82,7 @@ This class is responsible for all connections and requests done to the Database.
             )
     VALUES  ( 'BloombergWebPassword' , -- Property - varchar(128)
               20 , -- SystemPropertyCategoryCode - int
-              'VMHYQBWY' , -- Value - varchar(512)
+              '*********' , -- Value - varchar(512)
               0 , -- IsInternal - bit
               2 , -- CreatedBy - int
               '2013-05-16 19:50:59' , -- CreatedOn - datetime
