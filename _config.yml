@@ -1,25 +1,25 @@
-title:            Minimal Mistakes
-tagline:          Jekyll Theme
-description:      A responsive Jekyll theme large featured images and solid typography.
+title:            Eric Robinson
+tagline:          Portfolio
+description:      
 #Comment out url when working locally to resolve base urls correctly
 url:              http://mmistakes.github.io/minimal-mistakes
 
 # Owner/author information
 owner:
-  name:           Michael Rose
-  avatar:         bio-photo.jpg
+  name:           Eric Robinson
+  avatar:         Bio-photo.jpg
   bio:            "Just another boring, time traveling, tattooed, designer from Buffalo New York."
-  email:          michael@mademistakes.com
+  email:          eric.z.robinson@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        "mmistakes"
+  twitter:      "https://twitter.com/Batman_Robins_"  
   facebook:       
-  github:         "mmistakes"
+  github:       "https://github.com/robinsone"
   linkedin:       
-  instagram:      "mmistakes"
+  instagram:      
   lastfm:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/118238196859537351707"
+  google_plus:    "https://plus.google.com/113582699179644645499/about"
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-2011187-3
@@ -30,15 +30,8 @@ bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about
-  - title: Articles
-    url: /articles
-  - title: Theme Setup
-    url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  - title: Contact Me
+    url: /ContactMe
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
