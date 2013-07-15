@@ -2,7 +2,7 @@ title:            Eric Robinson
 tagline:          Portfolio
 description:      
 #Comment out url when working locally to resolve base urls correctly
-url:              http://mmistakes.github.io/minimal-mistakes
+url:              http://robinsone.github.io/
 
 # Owner/author information
 owner:
@@ -11,9 +11,9 @@ owner:
   bio:            "Just another boring, time traveling, tattooed, designer from Buffalo New York."
   email:          eric.z.robinson@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:      "https://twitter.com/Batman_Robins_"  
+  twitter:      "Batman_Robins_"  
   facebook:       
-  github:       "https://github.com/robinsone"
+  github:       "robinsone"
   linkedin:       
   instagram:      
   lastfm:         
