@@ -142,6 +142,10 @@ header {
   position:fixed;
 }
 
+header h2 {
+    margin-bottom: 0px;    
+}
+
 /*
 header ul {
   list-style:none;
