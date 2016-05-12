@@ -1,0 +1,183 @@
+<?php include_once('php/sendemail.php'); ?>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+
+        <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <meta charset="utf-8">
+        <title>Eric Robinson</title>
+        <meta name="Designer & Developer" content="">
+        <meta name="" content="">
+
+        <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+        <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/css.css">
+
+        <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script type="text/javascript" src="javascript/js.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <!-- Latest compiled and minified CSS -->
+
+    </head>
+
+    <body>
+        <div class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="resume/EricRobinson_Resume.pdf" target="_blank">Resume</a></li>
+                <li class="contact"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <div id="header" class="container">
+            <div class="row">
+                <img src="images/me.png" class="img-circle">
+                <h1>Eric Robinson</h1>
+                <h2>Full Stack Developer</h2>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="row">
+
+                <div id="left" class="one-half column">
+                    <h4>Social</h4>
+                    <p><a href="https://twitter.com/Batman_Robins_">@batman_robins</a> <span class="fa fa-twitter fa-2x"></span>
+                        <br /><a href="https://github.com/robinsone">Github</a> <span class="fa fa-github fa-2x"></span>
+                        <br /><a href="http://stackoverflow.com/users/1435749/eric-robinson?tab=profile">Stack Overflow</a><span class="fa fa-stack-overflow fa-2x"></span>
+                        <br />
+                    </p>
+
+                    <h4 id="about">About</h4>
+                    <p>
+                        I’m a Full Stack Developer looking to expand my knowledge into web development. I’m a great team player willing to do whatever it takes to help the team succeed; front end, back end and everything in between. I excel at learning new technologies and languages. I also love being creative and coming up with new interfaces and graphics. My ideal role would be somewhere between graphic designer and a programmer. With 3 years’ experience in software engineering I feel confident that I can contribute meaningful results.
+                    </p>
+
+                    <!--
+                        After completing a 3-year degree in Software Engineering at Cambrian College, I decided to further my education to broaden my possibilities in the work field. I am now learning to become a Computer Scientist at the University of Western Ontario. I've worked for many notable companies such as "The Ministry of Natural Resources" MNR in Sudbury Ontario, Western University Engineering Department, Sudbury Hydro, and Vianet Internet Solutions. My experience combined with my education are a great asset
+                    </p>
+-->
+
+                    <h4>Education</h4>
+                    <h5>Bachelor in Computer Science</h5>
+                    <p>Western University
+                        <br /> London, Ontario
+                        <div class="time">2009 - 2014</div>
+                    </p>
+
+                    <h5>Software Engineering</h5>
+                    <p>Cambrian College
+                        <br /> Sudbury, Ontario
+                        <div class="time">2006 - 2009</div>
+                    </p>
+
+
+
+                </div>
+
+                <div id="right" class="one-half column">
+                    <div class="border-div"></div>
+                    <h4>Expertise</h4>
+
+                    <div class="skillbar clearfix " data-percent="90%">
+                        <div class="skillbar-title"><span>VB</span></div>
+                        <div class="skillbar-bar"></div>
+                    </div>
+                    <!-- End Skill Bar -->
+
+                    <div class="skillbar clearfix" data-percent="80%">
+                        <div class="skillbar-title"><span>C#</span></div>
+                        <div class="skillbar-bar"></div>
+                    </div>
+                    <!-- End Skill Bar -->
+
+                    <div class="skillbar clearfix " data-percent="60%">
+                        <div class="skillbar-title"><span>JAVA</span></div>
+                        <div class="skillbar-bar"></div>
+                    </div>
+                    <!-- End Skill Bar -->
+
+                    <div class="skillbar clearfix " data-percent="60%">
+                        <div class="skillbar-title"><span>PHP</span></div>
+                        <div class="skillbar-bar"></div>
+                    </div>
+                    <!-- End Skill Bar -->
+
+                    <div class="skillbar clearfix " data-percent="80%">
+                        <div class="skillbar-title"><span>HTML</span></div>
+                        <div class="skillbar-bar"></div>
+                    </div>
+                    <!-- End Skill Bar -->
+
+                    <div class="skillbar clearfix " data-percent="70%">
+                        <div class="skillbar-title"><span>CSS</span></div>
+                        <div class="skillbar-bar"></div>
+                    </div>
+                    <!-- End Skill Bar -->
+
+                    <div class="skillbar clearfix " data-percent="50%">
+                        <div class="skillbar-title"><span>JavaScript</span></div>
+                        <div class="skillbar-bar"></div>
+                    </div>
+
+                    <div class="skillbar clearfix " data-percent="70%">
+                        <div class="skillbar-title"><span>SQL</span></div>
+                        <div class="skillbar-bar"></div>
+                    </div>
+                    <br />
+                    <!-- End Skill Bar -->
+
+                    <h4>Experience</h4>
+                    <h5>Solufy Information Technologies, Inc.</h5>
+                    <p>Managing a set of modules for Solufy's Akwire. Personally responsible for managing vCalendar, vTimesheet and vJobPlan. Created a new module to help close work orders faster, named vWOClosure. Allowing users to simplify their experience with IBM Maximo. Mostly coded in VB.net.
+                        <div class="time">January 2014 - Present</div>
+                    </p>
+
+                    <h5>Engineering IT Helpdesk – Western University</h5>
+                    <p>Created programs for students to manage their files and folders.
+                        <br/> Created an active directory seeding program, to import new students, backup old students and greatly reduce the effort involved by administrators on a yearly basis.
+
+                        <div class="time">September 2009 - December 2013</div>
+                    </p>
+
+                    <h5>Primacy Corporation</h5>
+                    <p>Worked with Bloomberg’s new API to create a program that would keep track of changes in stock prices.
+                        <div class="time">May 2013 - August 2013</div>
+                    </p>
+
+                    <h5>Ministry of Natural Resources</h5>
+                    <p>Updated and created new functionality to work with their internal auditing program. Previously they experienced really slow asp.net performance. I was able to speed that up considerably with the use of ajax and asynchronous database calls.
+                        <div class="time">May 2012 - August 2012</div>
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    </html>
